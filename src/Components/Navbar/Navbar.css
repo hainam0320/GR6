@@ -1,0 +1,100 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav-menu a{
+    margin-right: 20px;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    gap: 3px;
+    text-decoration: none; 
+    color: black;
+}
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    background-color: #000;
+    border-radius: 10px;
+}
+.nav-login-cart{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+.nav-login-cart button{
+    width: 157px;
+    height: 58px;
+    outline: none;
+    border: 1px solid ;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #515151;
+    cursor: pointer;
+}
+.nav-login-cart img{
+    width: 32px;
+    height: 32px;
+}
+.nav-login-cart button:active{
+    background-color: #000;
+    color: #fff;
+}
+.nav-cart-count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: -35px;
+   margin-left: -50px;
+   border-radius:11px ;
+   font-size: 14px;
+   background: red;
+   color: white;
+}
+.top-bar {
+    background-color: black; 
+    color: #ffffff; 
+    text-align: center; 
+    padding: 10px; 
+    overflow: hidden; 
+}
+
+.top-bar-text {
+    margin: 0; 
+    font-size: 14px; 
+    animation: slide 10s linear infinite;
+    white-space: nowrap; 
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(100%); /* Di chuyển về bên phải */
+    }
+    100% {
+        transform: translateX(-100%); /* Di chuyển về bên trái */
+    }
+}
+
+
+
